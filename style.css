@@ -142,7 +142,7 @@ body{
 
 /* Start Hero-section Style */
 .hero{
-  background: url('/images/desktop/image-header.jpg');
+  background: url('./images/desktop/image-header.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
