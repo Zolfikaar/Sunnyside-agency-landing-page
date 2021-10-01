@@ -222,7 +222,8 @@ body{
   display: flex;
   justify-content: space-evenly;
 }
-.last-cards .card{position: relative;}
+.last-cards .card{position: relative; width: 50%;}
+.last-cards .card .card-image img{width: 100%;}
 .last-cards .card .card-caption{
   position: absolute;
   left: 50%;
