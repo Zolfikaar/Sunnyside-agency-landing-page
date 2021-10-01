@@ -156,6 +156,7 @@ body{
 .hero .hero-caption{
   color: var(--neutral-white);
   font-size: 3em;
+  font-family: Fraunces, sans-serif;
   letter-spacing: 7px;
   text-transform: uppercase;
   margin-bottom: 60px;
