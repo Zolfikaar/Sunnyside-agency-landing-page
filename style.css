@@ -27,10 +27,15 @@ body{
   Font-size: 18px;
   font-family: Barlow, sans-serif;
 }
-.container{
-  width: 95%;
-  margin: 0 auto;
-  position: relative;
+ul{
+
+}
+ul li{
+  list-style-type: none;
+}
+ul li a,a{
+  text-decoration: none;
+  color: unset;
 }
 /* Start Navbar Style */
 .navbar{
@@ -145,7 +150,7 @@ body{
   background: url('./images/desktop/image-header.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 40em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -155,7 +160,7 @@ body{
 
 .hero .hero-caption{
   color: var(--neutral-white);
-  font-size: 3em;
+  font-size: 4em;
   font-family: Fraunces, sans-serif;
   letter-spacing: 7px;
   text-transform: uppercase;
@@ -380,7 +385,7 @@ body{
 @media screen and (max-width: 1422px){}
 @media screen and (max-width: 730px){}
 /* End Footer Style */
-.attribution{
+/* .attribution{
   background-color: var(--neutral-dark-blue);
   color: var(--neutral-grayish-blue);
   display: flex;
@@ -392,5 +397,5 @@ body{
 }
 .attribution span:last-child a{
   color: var(--primary-yellow);
-}
+} */
 
